@@ -1,0 +1,1 @@
+the libzdk.a archive can be used to link the ZDK library to your by passing the `libzdk.a` archive to the linker with the -L flag and the -lzdk flag, as in the command gcc main.o -L./ZDK -lzdk -lncurses -lm -m32 -o a1_n10203478.
