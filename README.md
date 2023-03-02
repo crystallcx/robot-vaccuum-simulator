@@ -12,21 +12,18 @@
 `sudo apt-get install libncurses5-dev`
 `sudo apt-get install libtinfo-dev`
 ---
-
-Unix shell: this is provided by default in Mac / Linux, in Windows we will use Cygwin to emulate this.
-Text editor: there are a number of options, and different programs provide different perks.
-    Visual Studio Code -- Takes some effort to set up projects, but very potent once you get it working, Not for the faint of heart.
-    Visual Studio 2017 -- Takes some effort to set up projects, but very potent once you get it working, Not for the faint of heart.
-Standard set of C compiler tools:  the following is required:
-    gcc compiler
-    make
-    libncurses-devel (ncurses developer library)
+Need:
+1. Unix shell: this is provided by default in Mac / Linux, in Windows we will use Cygwin to emulate this.
+2. Text editor
+3. Standard set of C compiler tools:  the following is required:
+    - gcc compiler
+    - make
+    - libncurses-devel (ncurses developer library)
 
 For the second half of the semester (microcontrollers), you will need:
-
-    Compiler for AVR microcontrollers: avr-gcc is used for this
-    Serial Port Terminal: (recommendations will be decided later in the semester...)
-    USB Serial Drivers: setup instructions available from https://www.pjrc.com/teensy/usb_serial.html
+- Compiler for AVR microcontrollers: avr-gcc is used for this
+- Serial Port Terminal: (recommendations will be decided later in - the semester...)
+- USB Serial Drivers: setup instructions available from https://www.- pjrc.com/teensy/usb_serial.html
 
 ---
 https://blackboard.qut.edu.au/bbcswebdav/pid-7904345-dt-content-rid-23334445_1/courses/CAB202_19se1/CAB202_Topic_1_Notes.html#intro
@@ -41,6 +38,6 @@ command
 
 # Additional Resources
 
-https://www.learn-c.org/
-https://www.programiz.com/c-programming
-https://en.wikibooks.org/wiki/C_Programming
+https://www.learn-c.org/ \
+https://www.programiz.com/c-programming \
+https://en.wikibooks.org/wiki/C_Programming 
