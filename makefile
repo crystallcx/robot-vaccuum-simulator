@@ -7,3 +7,9 @@ a1_n10203478: $(OBJ)
 
 %.o : %.c
 	gcc -c $< $(CC_FLAGS)
+
+clean:
+	for f in $(OBJ); do \
+		if [ -f $${f} ]; then rm $${f}; fi; \
+		if [ -f $${f}.exe ]; then rm $${f}.exe; fi; \
+	done
