@@ -41,3 +41,7 @@ command
 https://www.learn-c.org/ \
 https://www.programiz.com/c-programming \
 https://en.wikibooks.org/wiki/C_Programming 
+
+
+#### todo:
+try setup ci for cygwin

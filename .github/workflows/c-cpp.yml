@@ -6,21 +6,14 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
 
-    - name: Set up Cygwin
-      uses: egor-tensin/setup-cygwin@v4
-      with:
-        packages: cmake gcc-g++
-
-    - name: makefile
-      run: make main.c
+    - name: build
+      run: make
 
     - name: run tests
-      uses: cygwin/cygwin-install-action@master
       run: chmod +x a1_tests.bash && ./a1_tests.bash
 
