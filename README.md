@@ -26,7 +26,6 @@ For the second half of the semester (microcontrollers), you will need:
 - USB Serial Drivers: setup instructions available from https://www.- pjrc.com/teensy/usb_serial.html
 
 ---
-https://blackboard.qut.edu.au/bbcswebdav/pid-7904345-dt-content-rid-23334445_1/courses/CAB202_19se1/CAB202_Topic_1_Notes.html#intro
 
 #### Compilation
 C is a compiled language, meaning the text documents you write are converted through several stages to finally become
